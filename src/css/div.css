@@ -1,0 +1,43 @@
+.main-div{
+    background-color:#fff;
+}
+.App{
+    background-color:hsl(180, 52%, 96%);
+}
+
+.main-div ul{
+    display:flex;
+}
+.main-div li{
+    list-style:none;
+    color:hsl(180, 29%, 50%);
+    background-color:hsl(180, 52%, 96%);
+    margin:0 10px;
+    
+}
+.company-info{
+    display:flex;
+}
+.input{
+    padding:10px 10px;
+    border:0;
+    outline:none;
+    border-bottom:1px solid black;
+    background:none;
+}
+.main-div{
+    display:flex;
+    justify-content: space-between;
+    margin:10px 0;
+}
+ .languages{
+    display: block;
+    margin:auto 0;
+}
+#feature{
+    color:white;
+    background-color:black;
+    padding:3px 5px;
+    border-radius:5px;
+}
+
