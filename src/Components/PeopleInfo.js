@@ -77,11 +77,28 @@ onChange={handleChange}></input>
               
            <div class ="languages">
            <ul>
-            <li>{postDetail.role}</li>
-            <li>{postDetail.level}</li>
-            <li>{postDetail.languages[0]}</li>
-            <li>{postDetail.languages[1]}</li>
-            <li>{postDetail.languages[2]}</li>
+            <li>
+                <button>{postDetail.role}</button>
+                
+            </li>
+            
+            <li>
+            <button>
+                {postDetail.level}
+                </button>
+                </li>
+
+            <li>
+            <button>
+                {postDetail.languages[0]}
+                </button>
+                </li>
+
+            <li>
+                <button>{postDetail.languages[1]}</button></li>
+
+            <li><button>{postDetail.languages[2]}</button></li>
+
                 </ul>
            </div>
            
